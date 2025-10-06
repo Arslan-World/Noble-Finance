@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+:root{
+    --bg-color : #A0F1BD;
+    --second-bg-color: #F9F9F9;
+    --third-bg-color: #2E4F21;
+    --fourth-bg-color: white;
+    --fifth-bg-color: #F4F7F5;
+    --sixth-bg-color: #D2F8DC;
+
+
+    --text-color:#2E4F21;
+    --second-color: white;
+    --third-color: #506349;
+    --fourth-color: #7D9276;
+    --fifth-color: #D5E4D0;
+
+
+    --accent-1 :#D2F8DC;
+    --accent-2 : #D7D7D7;
+
+    --divider-1 : #2E4F21;
+    --divider-2 : #C7C7C7;
+}
+
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+}
+.theme-btn{
+    padding: 12px;
+    background-color: var(--text-color);
+    color: white;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 110%;
+    letter-spacing: -4.5%;
+    border-radius: 51.57px;
+}
+.gap-2{
+    gap: 20px;
+}
+.text{
+    letter-spacing: -4.5%;
+    line-height: 110%;
+    color: var(--text-color);
+}
+.text-1{
+    letter-spacing: -4.5%;
+    line-height: 110%;
+}
+
+.center{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+header{
+    background: var(--bg-color);
+    height: 10vh;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+.services{
+    font-size: 12px;
+    font-weight: 550;
+}
+
+
+/* main section */
+
+
+.main-section{
+    min-height: 90vh;
+    background-color: var(--bg-color);
+}
+
+.main-section-container img{
+    width: 429px;
+    height: 411.49px;
+}
+.main-section-container-info{
+    width: 691px;
+}
+.main-section-container-info h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 100%;
+    letter-spacing: -8%;
+    margin-bottom: 24px;
+}
+.main-section-container-info p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+/* services section */
+
+.services-section{
+    text-align: center;
+}
+.services-section h1{
+    font-size: 60px;
+    line-height: 105%;
+    letter-spacing: -7%;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 28px;
+}
+.services-section p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28.4px;
+}
+.services-section{
+    height: 500px;
+}
+
+
+
+/* section cards */
+.card{
+    width: 1036px;
+    border-radius: 20px;
+    padding: 80px;
+    background-color: var(--accent-1);
+}
+.card img{
+    width: 393px;
+    height:  285px;
+}
+.card-info{
+    width: 393px;
+    height: 285px;
+}
+
+.card-info h1{
+    font-size: 40px;
+    letter-spacing: -4.5%;
+    line-height: 105%;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.cards-sections{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 40px;
+}
+.card-1{
+    align-self: flex-start;
+}
+
+.card-2{
+    align-self: flex-end;
+}
+
+.card-3{
+    align-self: flex-start;
+}
+.card-info p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.card-btn{
+    border-radius: 8px;
+    background-color: white;
+    color: var(--text-color);
+justify-content: stretch;
+}
+
+
+
+/* info section */
+
+.info-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.info-section h1{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -7%;
+    line-height: 105%;
+    color: var(--text-color);
+    margin-bottom: 120px;
+}
+.employee-name{
+    width: 310px;
+    align-self: center;
+}
+.active{
+    background-color: var(--third-bg-color);
+}
+.active-1{
+    color: white!important;
+}
+
+.employee-name-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #506349;
+}
+.employee-name-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 16px;
+    color: #506349;
+    border-top: 1px solid #7D9276;
+}
+.employee-name-card h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.employee-name-card p{
+    font-size: 12px;
+    font-weight: 550;
+}
+.info-section-container{
+    display: flex;
+    align-items: stretch;
+    gap: 100px;
+}
