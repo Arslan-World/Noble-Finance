@@ -58,7 +58,7 @@
     border-radius: 51.57px;
 }
 .gap-2{
-    gap: 20px;
+    gap: 10px;
 }
 .text{
     letter-spacing: -4.5%;
@@ -151,18 +151,16 @@ header{
 
 /* section cards */
 .card{
-    width: 1036px;
+    gap: 70px;
     border-radius: 20px;
     padding: 80px;
     background-color: var(--accent-1);
 }
 .card img{
     width: 393px;
-    height:  285px;
 }
 .card-info{
     width: 393px;
-    height: 285px;
 }
 
 .card-info h1{
@@ -201,7 +199,6 @@ header{
     border-radius: 8px;
     background-color: white;
     color: var(--text-color);
-justify-content: stretch;
 }
 
 
@@ -326,6 +323,14 @@ justify-content: stretch;
     /* services section */
     .services-section h1{font-size: 48px;}
 
+
+    /* cards sections*/
+    .card{gap: 60px; padding: 78px 50px; align-self: center;}
+    .card img{width: 296px;}
+    .card-info{width: 296px;}
+    .card-info h1{font-size: 34px;}
+
+    /* info section */
 }
 
 
@@ -343,4 +348,14 @@ justify-content: stretch;
 
     /* services section */
     .services-section h1{font-size: 32px;}
+
+    /* cards section */
+    .card{flex-direction: column; gap: 70px;}
+    .card img{width: 311px;}
+    .card-info{width: 311px;}
+    .card-info h1{font-size: 28px;}
+    .card-2{flex-direction: column-reverse;}
+    
+    /* info section */
+
 }
