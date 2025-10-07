@@ -34,7 +34,9 @@
 
 
 .wrapper{
-    width: 1200px;
+    max-width: 1240px;
+    width: 100%;
+    padding: 0px 20px;
     margin: auto;
 }
 
@@ -89,7 +91,9 @@ header{
     font-size: 12px;
     font-weight: 550;
 }
-
+.book{
+    display: none;
+}
 
 /* main section */
 
@@ -140,7 +144,7 @@ header{
     margin-bottom: 28.4px;
 }
 .services-section{
-    height: 500px;
+    padding: 100px 0px;
 }
 
 
@@ -274,4 +278,69 @@ justify-content: stretch;
 .img-section{
     height: 600px;
     background: url('img/Image\ break\ section.png');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries section */
+
+
+
+/* tablet display */
+
+@media only screen and (max-width:1279px){
+
+    /* main section */
+
+    .main-section-container-info h1{font-size: 58px;}
+    .main-section-container-info{width: 447px;}
+    .main-section-container img{width: 273px;height: 262px;}
+    .main-section{padding: 50px 0px;}
+
+
+    /* services section */
+    .services-section h1{font-size: 48px;}
+
+}
+
+
+/* phone display */
+@media only screen and (max-width: 799px){
+    .book{display: block;}
+    .book-an-appointment{display: none;}
+
+    /* main section */
+    .main-section-container-info h1{font-size: 40px;}
+    .main-section-container-info{width: 350px;}
+    .main-section-container{flex-direction: column-reverse; gap: 40px; justify-content: center;}
+    .main-section{min-height: fit-content; padding: 40px 0px;}
+    .main-section-container img{width: 343px;height: 329px;}
+
+    /* services section */
+    .services-section h1{font-size: 32px;}
 }
