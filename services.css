@@ -34,15 +34,134 @@
     gap: 50px;
 }
 
+/* service img section */
+.service-img-section{
+    background-image: url('img/background-img-services.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
 
+/* How it works section */
+.how-it-work-section-info h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.how-it-work-section-info p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.how-it-work-section-info{
+    padding-bottom: 100px;
+}
+.how-it-work-card{
+    padding: 24px 0px;
+    display: flex;
+}
+.how-it-work-card h1{
+    font-size: 192.93px;
+    font-weight: 200;
+    width: 100%;
+    text-align: left;
+}
+.how-it-work-card-info h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.how-it-work-card-info p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.how-it-work-card-h1{
+    width: 255px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+.how-it-work-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* We believe section */
+
+.We-believe-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+.We-believe-section-cards{
+    text-align: center;
+}
+.We-believe-section-cards p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.We-believe-section-cards h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+.we-believe-card{
+    padding: 60px 100px;
+    text-align: center;
+    background-color: #D2F8DC;
+    border-radius: 60px;
+}
+.we-believe-card p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.we-believe-card h5{
+    font-size: 30px;
+    font-weight: 400;
+}
 /* media query*/
 
 /* tablet */
 @media only screen and (max-width: 1279px){
     .s-main-content-info h1{font-size: 58px;}
+    
+    /* img section */
+
+    .service-img-section{height: 526px;}
+
+    /* how it works section */
+    .how-it-work-section-info h1{font-size: 48px;}
+    .how-it-work-card-info h2{font-size: 34px;}
+    .how-it-work-card{flex-direction: column; padding: 0px 24px; padding-bottom: 100px;}
+
+
+    /* we belive section */
+    .We-believe-section-cards h1{font-size: 48px;}
+    .we-believe-card h5{font-size: 26px;}
 }
 
 /* Phone */
 @media only screen and (max-width: 799px){
     .s-main-content-info h1{font-size: 40px;}
+    .s-main-content{flex-direction: column-reverse;}
+    .s-main-content-info{width: 100%;gap: 24px;}
+    .s-main-content img{width: 100%;}
+
+    /* img section */
+
+    .service-img-section{height: 263px;}
+
+    /* how it works */
+    .how-it-work-section-info h1{font-size: 32px;}
+    .how-it-work-card h1{font-size: 152px;}
+    .how-it-work-card-info h2{font-size: 28px;}
+    .how-it-work-card{flex-direction: column; padding: 24px;}
+
+
+    /* we belive section */
+    .We-believe-section-cards h1{font-size: 32px;}
+    .we-believe-card h5{font-size: 22px;}
 }
