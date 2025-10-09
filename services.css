@@ -59,6 +59,7 @@
 .how-it-work-card{
     padding: 24px 0px;
     display: flex;
+    gap: 75px;
 }
 .how-it-work-card h1{
     font-size: 192.93px;
@@ -78,9 +79,8 @@
 .how-it-work-card-h1{
     width: 255px;
     display: flex;
-    background-color: red;
     justify-content: center;
-    align-items: center;
+    flex-shrink: 0;
 }
 .how-it-work-section{
     padding-top: 120px;
@@ -122,6 +122,38 @@
     font-size: 30px;
     font-weight: 400;
 }
+
+/* goodbye section */
+
+.goodbye-section{
+    background-color: #F4F7F5;
+}
+.goodbye-section-main{
+    padding: 80px 40px;
+    display: flex;
+}
+.goodbye-section-main-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-shrink: 0;
+}
+.goodbye-section-main-content h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.goodbye-section-main img{
+    width: 50%;
+    display: block;
+}
+
+
 /* media query*/
 
 /* tablet */
@@ -141,6 +173,12 @@
     /* we belive section */
     .We-believe-section-cards h1{font-size: 48px;}
     .we-believe-card h5{font-size: 26px;}
+
+    /* goodbye section */
+    .goodbye-section-main-content h1{font-size: 48px;}
+    .goodbye-section-main{gap: 24px;}
+    .goodbye-section-main-content{padding-left: 0px;padding-right: 0px;}
+
 }
 
 /* Phone */
@@ -164,4 +202,9 @@
     /* we belive section */
     .We-believe-section-cards h1{font-size: 32px;}
     .we-believe-card h5{font-size: 22px;}
+
+    /* goodbye section */
+    .goodbye-section-main-content h1{font-size: 32px;}
+    .goodbye-section-main{flex-direction:column-reverse; gap: 20px; align-items: center; justify-content: center;}
+    .goodbye-section-main-content{padding: 60px 0px;}
 }

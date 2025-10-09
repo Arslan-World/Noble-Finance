@@ -437,6 +437,9 @@ footer{
     font-weight: 300;
     color: white;
 }
+.footer-logo{
+    color: white;
+}
 
 
 /* media queries section */
